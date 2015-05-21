@@ -8,6 +8,9 @@
     <artifactId>cassandra-hackaton</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <properties>
+        <spring.framework.version>3.2.8.RELEASE</spring.framework.version>
+    </properties>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -19,7 +22,7 @@
         <dependency>
             <groupId>org.springframework.data</groupId>
             <artifactId>spring-data-cassandra</artifactId>
-            <version>1.2.0.RELEASE</version>
+
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
